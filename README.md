@@ -23,22 +23,30 @@ pip install pandas numpy scikit-learn matplotlib
 
 ##Usage
 1.Clone the repository:
-git clone https://github.com/yourusername/housing-price-prediction.git
+
+git clone  https://github.com/Pawankumar1432/CodeTech-Task2.git
 cd housing-price-prediction
+
 2.Ensure housingdata.csv is in the project directory.
+
 3.Run the script:
+
 python model_comparison.py
 
 
 ##Methodology
 ->Data Preprocessing
-->Replace NaN values with the mean of their respective columns.
+
+->Replace NaN values with the mean of their respective columns
+
 ->Model Training and Evaluation
+
 ->The following models were trained and evaluated:
-  Linear Regression
-  Lasso Regression
-  Ridge Regression
-  Elastic Net Regression
+
+  1)Linear Regression
+  2)Lasso Regression
+  3)Ridge Regression
+  4)Elastic Net Regression
 For each model, the following evaluation metrics were calculated:
 
 Root Mean Squared Error (RMSE)
